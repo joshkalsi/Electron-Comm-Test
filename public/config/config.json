@@ -1,0 +1,6 @@
+{
+    "examplePage": {
+        "title": "Electron React Boilerplate Example",
+        "description": "The title and description on this page are being controlled by the config.json file. The logo is being loaded from the assets folder. Both of these are external when the app is packaged."
+    }
+}

@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    padding: 5%;
+    background: $grey;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+    min-width: 300px;
+    margin: 0 auto 2em;
+}
+
+.title {
+    margin: 0 0 1.5rem;
+    color: $primary;
+    text-transform: uppercase;
+}
+
+.description {
+    width: 50%;
+    margin: 0 auto 4rem;
+    color: $primary--light;
+}
